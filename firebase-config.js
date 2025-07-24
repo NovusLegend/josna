@@ -3,14 +3,15 @@ import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebas
 import { getAuth } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
 import { getFirestore } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBgquv4Ks6_5e0FyUj7wZd0HjM0-aOUc_0",
-  authDomain: "sociality-e43a5.firebaseapp.com",
-  projectId: "sociality-e43a5",
-  storageBucket: "sociality-e43a5.firebasestorage.app",
-  messagingSenderId: "282309210752",
-  appId: "1:282309210752:web:fa8d45907a188e82f7ac65",
-  measurementId: "G-PQWDHNXVFW"
+  apiKey: "AIzaSyB_Xa-AgdgEYWbOXQvXSku9Vb9pgWv8EEY",
+  authDomain: "blog-af357.firebaseapp.com",
+  projectId: "blog-af357",
+  storageBucket: "blog-af357.firebasestorage.app",
+  messagingSenderId: "742174134068",
+  appId: "1:742174134068:web:c5facec576b08de36f5f61",
+  measurementId: "G-TNSNP60G65"
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
